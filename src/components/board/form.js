@@ -1,5 +1,5 @@
-export const getFormTemplate = () => {
-  return `<article class="card card--edit card--yellow card--repeat">
+export const getFormTemplate = () =>
+  `<article class="card card--edit card--yellow card--repeat">
       <form class="card__form" method="get">
       <div class="card__inner">
         <div class="card__control">
@@ -265,5 +265,4 @@ export const getFormTemplate = () => {
         </div>
       </div>
     </form>
-    </article>`;
-};
+    </article>`.trim();
